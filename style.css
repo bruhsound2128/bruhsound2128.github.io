@@ -212,3 +212,22 @@ footer {
         padding: 30px;
     }
 }
+.project-nav {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0 30px;
+}
+
+.project-btn {
+    text-decoration: none;
+    background: #1f4b8f;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.project-btn:hover {
+    background: #16386b;
+}
