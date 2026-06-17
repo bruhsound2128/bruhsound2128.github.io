@@ -231,3 +231,28 @@ footer {
 .project-btn:hover {
     background: #16386b;
 }
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 400px;
+    height: 280px;
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
+    transition: all 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
